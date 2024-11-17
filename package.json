@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "scripts": {
+    "start-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "flag-icons": "^7.2.3",
+    "pagedone": "^1.2.2",
+    "swiper": "^11.1.14"
+  }
+}

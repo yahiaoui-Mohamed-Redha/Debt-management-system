@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "node_modules/flag-icons/css/flag-icons.min.css";
+
+
+/* 
+
+.games {
+    @apply flex flex-col justify-between items-center gap-3;
+}
+
+.item-log {
+    @apply w-72 flex items-center justify-between bg-slate-950 bg-opacity-80 rounded-xl;
+}
+
+.game-image {
+    @apply h-[5.5rem] rounded-xl;
+}
+
+.info {
+    @apply flex flex-col items-start justify-between mr-8 ;
+}
+
+.name {
+    @apply text-sm text-white font-bold;
+}
+
+.discreption {
+    @apply text-sm text-Tgray font-semibold;
+}
+
+.review {
+    @apply text-sm text-Tgray font-semibold;
+}
+
+.fa-star {
+    @apply text-yellow-500
+} */
+
+.banner {
+    @apply overflow-hidden 
+}
+
+/* .ico {
+    @apply text-darkblue dark:text-white
+} */
+
+.img-class {
+    @apply flex justify-between flex-col items-start rounded-lg;
+}
+
+.game-imga {
+    @apply rounded-t-lg;
+}
+
+
+.black-bar {
+    @apply bg-black w-full flex items-start h-6 rounded-b-lg;
+} 
+
+swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom,25px);
+    top: var(--swiper-pagination-top,auto);
+    left: 0px;
+    width: 100%;
+}
+
+
+.banner-game {
+    @apply overflow-hidden w-full -top-4 relative max-h-[24rem]
+}
+
+
+.alert{
+    display: flex;
+    align-items: center;
+  }
+  .alert .error{
+    color: #D93025;
+    font-size: 18px;
+    display: none;
+    margin-right: 8px;
+}
+
